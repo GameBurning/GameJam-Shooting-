@@ -18,17 +18,20 @@ public class MyEnemy : MonoBehaviour
     {
         if (coll.gameObject.tag == "Bullet")
         {
-            
+
             if (!invincible)
             {
                 this.life--;
+                #region question how to manupulate material
+                this.GetComponent<Renderer>().material.color *= 1.5f;
+                #endregion
                 if (life <= 0)
                 {
                     Destroy(this.gameObject);
                 }
             }
         }
-        else if(coll.gameObject.tag == "Enemy")
+        else if (coll.gameObject.tag == "Enemy")
         {
         }
 
@@ -37,6 +40,5 @@ public class MyEnemy : MonoBehaviour
     void Update()
     {
         transform.Translate((target.position - this.transform.position).normalized * speed * Time.deltaTime, Space.World);
-        
     }
 }

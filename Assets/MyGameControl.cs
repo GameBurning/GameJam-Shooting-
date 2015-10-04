@@ -45,6 +45,5 @@ public class MyGameControl : MonoBehaviour
         if (spawnTime > 0.5f) spawnTime = spawnTime / 1.3f;
         else spawnTime = 0.5f;
         Invoke("EnemySpawn", spawnTime);
-        
     }
 }
