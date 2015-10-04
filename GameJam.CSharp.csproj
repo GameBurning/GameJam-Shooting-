@@ -82,13 +82,13 @@
   <ItemGroup>
     <Compile Include="Assets\Demigiant\DOTween\Examples\Basics.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Examples\Sequences.cs" />
-    <Compile Include="Assets\MyBullet.cs" />
-    <Compile Include="Assets\MyCamera.cs" />
-    <Compile Include="Assets\MyEnemy.cs" />
-    <Compile Include="Assets\MyGameControl.cs" />
-    <Compile Include="Assets\MyPlayerControl.cs" />
-    <Compile Include="Assets\MyShooting.cs" />
-    <Compile Include="Assets\myPowerUp.cs" />
+    <Compile Include="Assets\MyScript\MyBullet.cs" />
+    <Compile Include="Assets\MyScript\MyCamera.cs" />
+    <Compile Include="Assets\MyScript\MyEnemy.cs" />
+    <Compile Include="Assets\MyScript\MyGameControl.cs" />
+    <Compile Include="Assets\MyScript\MyPlayerControl.cs" />
+    <Compile Include="Assets\MyScript\MyShooting.cs" />
+    <Compile Include="Assets\MyScript\myPowerUp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Demigiant\DOTween\DOTween.XML" />
